@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:p = "http://www.springframework.org/schema/p"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans 
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context 
+    http://www.springframework.org/schema/context/spring-context.xsd">
+ 
+    
+    <!-- bean 1 -->
+<bean class = "com.A1_Springcore.Friend" name = "friend1">
+	<property name="Mobileno">
+	<value>12345</value>
+	</property>
+	
+	<property name = "Name">
+	<value>Ram</value>
+	</property>
+	
+	<property name = "Address">
+	<value>Mumbai</value>
+	</property>
+</bean>
+	
+	 <!-- bean 2 -->
+<bean class = "com.A1_Springcore.Friend" name = "friend2">
+	<property name = "Mobileno" value= "54321"/>
+	<property name = "Name" value = "Shyam"/>
+	<property name = "Address" value = "Delhi"/>
+</bean>
+
+ <!-- bean 3 -->
+<bean class = "com.A1_Springcore.Friend" name="friend3" p:Mobileno="67891" p:Name="Lakhan" p:Address="Kanpur"/>
+
+
+	
+	
+
+
+</beans>

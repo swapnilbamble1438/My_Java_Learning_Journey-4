@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:p = "http://www.springframework.org/schema/p"
+    xmlns:util = "http://www.springframework.org/schema/util"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans 
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context 
+    http://www.springframework.org/schema/context/spring-context.xsd
+    http://www.springframework.org/schema/util
+    http://www.springframework.org/schema/util/spring-util.xsd
+    ">
+ <!-- prototype is done through scope annotation in respective(Student) class -->
+  <context:component-scan base-package="com.A9_Bean_scope" />
+  
+  <util:list list-class = "java.util.ArrayList" id = "temp">
+  	<value>Mumbai</value>
+  	<value>Delhi</value>
+  	<value>Pune</value>
+  	<value>Thane</value>
+  
+  
+  </util:list>
+  
+  <!-- prototype is done directly in bean no need to apply annotation in respective class -->
+  <bean class = "com.A9_Bean_scope.Teacher" name = "teacher" scope = "prototype"/>
+  <!-- if we remove scope we will get same hashcode of multiple object. -->
+  
+
+</beans>
