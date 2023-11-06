@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+                
+    
+    
+    <wb-module deploy-name="MySpringwith_Aa17_CRUD_Practice">
+                                
+        
+        
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+                                
+        
+        
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+                                
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+                                
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+                                
+        
+        
+        <wb-resource deploy-path="/" source-path="/src/main/webapp/WEB-INF/views"/>
+                                
+        
+        
+        <wb-resource deploy-path="/" source-path="/src/main/webapp/WEB-INF/resources/image"/>
+                                
+        
+        
+        <wb-resource deploy-path="/" source-path="/src/main/webapp/WEB-INF/resources/js"/>
+                                
+        
+        
+        <wb-resource deploy-path="/" source-path="/src/main/webapp/WEB-INF/resources/css"/>
+                                
+        
+        
+        <wb-resource deploy-path="/" source-path="/src/main/webapp/WEB-INF"/>
+                                
+        
+        
+        <property name="java-output-path" value="/MySpringwith_Aa16i_CRUD_with_Hibernate/target/classes"/>
+        <property name="context-root" value="MySpringwith_Aa17_CRUD_Practice"/>
+                            
+    
+    
+    </wb-module>
+            
+
+
+</project-modules>
